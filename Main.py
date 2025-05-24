@@ -60,10 +60,10 @@ def banner(console=None):
 
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
-    console.print("[bold #FFA500] ================================================[/bold #FFA500]")        
+    console.print("[bold cyan] ================================================[/bold cyan]")        
     console.print("[bold yellow]  𝗣𝗟𝗘𝗔𝗦𝗘 𝗟𝗢𝗚 𝗢𝗨𝗧 𝗙𝗥𝗢𝗠 𝗖𝗣𝗠 𝗕𝗘𝗙𝗢𝗥𝗘 𝗨𝗦𝗜𝗡𝗚 𝗧𝗛𝗜𝗦 𝗧𝗢𝗢𝗟[/bold yellow]")    
     console.print("[bold red]      𝗦𝗛𝗔𝗥𝗜𝗡𝗚 𝗧𝗛𝗘 𝗔𝗖𝗖𝗘𝗦 𝗞𝗘𝗬 𝗜𝗦 𝗡𝗢𝗧 𝗔𝗟𝗟𝗢𝗪𝗘𝗗[/bold red]")
-    console.print("[bold #FFA500] ================================================[/bold #FFA500]")  
+    console.print("[bold cyan] ================================================[/bold cyan]")  
     
 def load_player_data(cpm):
     response = cpm.get_player_data()
