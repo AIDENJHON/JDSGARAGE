@@ -49,7 +49,7 @@ def banner(console=None):
     os.system('cls' if os.name == 'nt' else 'clear')
     
     # Banner text and decoration
-    brand_name = "JD'S TERMUX V6.0"
+    brand_name = "JDS TERMUX V6.0"
     border = "*" * (len(brand_name) + 10)
     
     # Print banner with colors and style
